@@ -1,0 +1,76 @@
+.Header__container{
+    width: 1440px;
+    height: 88px;
+    position: relative;
+    
+}
+
+.Nav__bar{
+    width: 476px;
+    height: 88px;
+    position: absolute;
+    right: 0;
+}
+
+.Nav__bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 476px;
+    height: 88px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Nav__bar ul li{
+    list-style: none;
+
+}
+
+.Nav__bar a{
+    position: relative;
+    
+}
+
+.Nav__bar a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: #5221E6;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+
+.Nav__bar a:hover:before{
+    width: 100%;
+   
+}
+
+.Hedear__button{
+    background: #5221E6;
+    padding: 35px 30px;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.Hedear__button:hover{
+    background: #673cea;
+    cursor: pointer;
+
+}
+
+
+.Logo{
+    width: 78.43px;
+    height: 24px;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 32px;
+    left: 72px;
+}
+
